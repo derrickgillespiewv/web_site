@@ -10,13 +10,14 @@ body {
   font-size:  36px;
 }
 #background {
-    background-image: url(".../img/winter.jpg");
+    background-image: url("../img/winter.jpg");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu li,
@@ -225,7 +226,7 @@ html {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: #3f3f3f;
+    background-color: #yellow;
     color: #fff;
     text-align: center;
     padding: 5px 0;

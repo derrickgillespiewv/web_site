@@ -17,7 +17,7 @@
   Test Site
     </ul>
     <ul id='words'>
-      <li><a href='#'>Home</a></li>
+      <li><a href='/index'>Home</a></li>
       <li class='active has-sub'><a href='#'>Links</a>
         <ul>
          <li class='active'><a href='https://www.google.com/'>Google</a>
@@ -27,6 +27,10 @@
          <li class='active'><a href='https://stackoverflow.com/'>Stack Overflow</a>
 
          <li class='active'><a href='/enter_amount'>Coin Changer</a>
+
+         <li class='active'><a href='/enter_name'>Pair Machine</a>
+
+
       </ul>
     </li>
     <li><a href='#'>About</a></li>
@@ -36,7 +40,7 @@
 	
 
    <div class = "tooltip" > Hover over for time and date
-     <span class = "tooltiptext"> <p id = "demo"> </p> </span>
+     <span class = "tooltiptext">  <p id ="date"> </p></span>
   </div>
         
 
@@ -50,5 +54,9 @@
 </body>
 </html>
 
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+<!-- <script type= "text/javascript" src="js/date_time.js"</script> -->
 <!-- <img src="./img/pizzahut.jpg">
 <a href="contact"><img src="./img/pizzahut.jpg"></a> -->

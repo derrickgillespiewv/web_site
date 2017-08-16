@@ -210,12 +210,13 @@ html {
 .tooltip {
     height: 80px;
     width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    font-size: 18;
     display: inline-block;
     border-bottom: 1px dotted black;
     text-align: center;
     background-color: #3f3f3f;
-    z-index: 800;
     margin-top: 5%;
   
 }
@@ -224,8 +225,11 @@ html {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 210px;
+    width: 300px;
+    height: 70%;
     background-color: #3f3f3f ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     color: yellow;
     text-align: center;
     padding: 5px 0;
@@ -233,7 +237,7 @@ html {
     position: absolute;
     z-index: 1;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -150px;
     top: 100%;
     opacity: 0;
     transition: opacity 1s;
@@ -244,3 +248,16 @@ html {
     visibility: visible;
     opacity: 1;
 }
+
+#name_data { 
+
+    width: 70%;
+    height: 70%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #3f3f3f;
+    text-align: center;
+   
+
+  }
